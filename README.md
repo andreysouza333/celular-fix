@@ -1,12 +1,13 @@
-# Açaí da Rita
+# Celular Fix
 
-Site institucional de exemplo da Açaí da Rita, em Candeias (BA). Modelo do docente para o Projeto Integrador de Projeto de Front-End (SENAI). O negócio e os dados de contato são fictícios.
+O site do CelularFix oferece funcionalidades que permitem aos clientes conhecer os serviços de conserto e manutenção de celulares, visualizar as soluções disponíveis, consultar informações sobre a loja e encontrar facilmente os meios de contato. Com uma navegação simples e organizada, a plataforma facilita a comunicação entre a empresa e seus clientes, permitindo solicitar orçamentos, tirar dúvidas e obter informações sobre reparos sem precisar se deslocar até a loja, tornando o atendimento mais rápido, prático e acessível.
 
-Site publicado: https://andersongomesmeireles.github.io/acai-da-rita/
+Site publicado: https://github.com/andreysouza333/celular-fix
 
 ## Funcionalidades
-- Cardápio com filtro por categoria
-- Formulário de pedido com validação
+- Contato
+- Agendamento por horário
+- Escolha de peças por valor, marca e originalidade 
 
 ## Tecnologias
 HTML5, CSS3, JavaScript, Git, GitHub Pages
@@ -16,3 +17,11 @@ HTML5, CSS3, JavaScript, Git, GitHub Pages
 - css/style.css
 - js/script.js
 - img/
+
+## Componentes e suas funções
+- Ryan - Product Owner(PO)
+- Agatha - Apresentador
+- Miguel Pinto - Dev de Deploy
+- Andrey - Dev de Deploy
+- Letícia - Scrum Master
+- Maria Clara - Documentador
