@@ -64,15 +64,15 @@ form.addEventListener("submit", function (evento) {
   }
 
   // mensagem: pelo menos 10 caracteres
-  if (campoMensagem.value.trim().length < 10) {
-    mostrarErro(campoMensagem, "erro-mensagem", "Escreva seu pedido com pelo menos 10 caracteres.");
+  if (campoMensagem.value.trim().length < 20) {
+    mostrarErro(campoMensagem, "erro-mensagem", "Escreva as falhas que aconteceram com seu dispositivo com pelo menos 20 caracteres.");
     valido = false;
   } else {
     mostrarErro(campoMensagem, "erro-mensagem", "");
   }
 
   if (valido) {
-    confirmacao.textContent = "Pedido recebido, " + campoNome.value.trim() + "! Vamos responder pelo WhatsApp.";
+    confirmacao.textContent = "Instruções recebidas, " + campoNome.value.trim() + "! Vamos responder pelo WhatsApp.";
     form.reset();
   }
 });
