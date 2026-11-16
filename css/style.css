@@ -1,11 +1,11 @@
 /* ===== CORES E FONTES DA MARCA (identidade visual) ===== */
 :root {
-  --roxo: #4a1d5e;
-  --roxo-claro: #efe6f3;
-  --verde: #2e7d32;
-  --creme: #f7f3ea;
-  --texto: #222222;
-  --erro: #b3261e;
+  --roxo: #9B00FF;
+  --roxo-claro: #F3E8FF;
+  --verde: #A020F0;
+  --creme: #08060B;
+  --texto: #F5F0FA;
+  --erro: #FF4D6D;
   --fonte: Arial, Helvetica, sans-serif;
 }
 
@@ -101,7 +101,7 @@ img {
 }
 
 .botao:hover {
-  background: #1f5e23;
+  background: #7400C2;
 }
 
 /* foco visível para quem navega pelo teclado (acessibilidade) */
