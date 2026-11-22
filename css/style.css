@@ -1,10 +1,10 @@
-/* ===== CORES E FONTES DA MARCA (identidade visual) ===== */
+/* ===== CORES E FONTES DA MARCA (identidade visual)A812FF   A020F0   --verde: #BE4DFF;===== */
 :root {
-  --roxo: #9B00FF;
-  --roxo-claro: #3a1a5c;
-  --verde: #A020F0;
-  --creme: #08060B;
-  --texto: #707070;
+  --roxo-escuro: #050009;
+  --roxo-claro: #9B00FF;
+  --roxo: #3a1a5c;
+  --preto: #000000;
+  --texto: #ffffff;
   --erro: #FF4D6D;
   --fonte: Arial, Helvetica, sans-serif;
 }
@@ -14,12 +14,13 @@
 }
 
 body {
+  border: 5px solid var(--roxo-claro);
   margin: 0;
   font-family: var(--fonte);
   font-size: 16px;
   line-height: 1.5;
   color: var(--texto);
-  background: var(--creme);
+  background: var(--preto);
 }
 
 img {
@@ -29,6 +30,7 @@ img {
 
 /* ===== CABEÇALHO E MENU ===== */
 .cabecalho {
+  border-bottom: 1px solid var(--roxo-claro);
   position: sticky;
   top: 0;
   z-index: 10;
@@ -38,7 +40,7 @@ img {
   align-items: center;
   gap: 8px;
   padding: 10px 16px;
-  background: var(--roxo);
+  background: var(--preto);
 }
 
 .marca {
@@ -74,15 +76,27 @@ img {
 
 /* ===== SEÇÃO INÍCIO ===== */
 .inicio {
+  border-bottom: 5px solid var(--roxo-claro);
   padding: 48px 16px;
-  text-align: center;
-  background: var(--roxo-claro);
+  text-align: left;
+  background: var(--roxo-escuro);
+}
+
+#imagens{
+  position: absolute;
+  top: 148px;
+  top: 95px;
+  right: 75px;
+}
+
+#iphone{
+  height: 300px;
 }
 
 .inicio h1 {
   margin: 0 0 12px;
   font-size: 28px;
-  color: var(--roxo);
+  color: var(--roxo-claro);
 }
 
 /* ===== BOTÃO (usado no Início e no formulário) ===== */
@@ -92,7 +106,7 @@ img {
   padding: 12px 24px;
   border: none;
   border-radius: 8px;
-  background: var(--verde);
+  background: var(--roxo-claro);
   color: #ffffff;
   font-size: 16px;
   font-weight: bold;
@@ -123,7 +137,7 @@ textarea:focus-visible {
 .secao h2 {
   margin-top: 0;
   font-size: 24px;
-  color: var(--roxo);
+  color: var(--roxo-claro);
 }
 
 /* ===== CATÁLOGO ===== */
@@ -137,16 +151,16 @@ textarea:focus-visible {
 .filtro {
   min-height: 44px;
   padding: 8px 16px;
-  border: 2px solid var(--roxo);
+  border: 2px solid var(--roxo-claro);
   border-radius: 20px;
   background: #ffffff;
-  color: var(--roxo);
+  color: var(--roxo-claro);
   font-size: 15px;
   cursor: pointer;
 }
 
 .filtro.ativo {
-  background: var(--roxo);
+  background: var(--roxo-claro);
   color: #ffffff;
 }
 
@@ -157,7 +171,8 @@ textarea:focus-visible {
 }
 
 .card {
-  background: #ffffff;
+  background-color: var(--roxo-escuro);
+  border: 3px solid var(--roxo-claro);
   border-radius: 12px;
   padding: 12px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
@@ -172,17 +187,19 @@ textarea:focus-visible {
 .card h3 {
   margin: 10px 0 4px;
   font-size: 17px;
+  color: #ffffff;
 }
 
 .card p {
   margin: 0 0 6px;
   font-size: 14px;
+  color: #ffffff;
 }
 
 .card .preco {
   font-size: 18px;
   font-weight: bold;
-  color: var(--verde);
+  color: var(--roxo-claro);
 }
 
 /* ===== SOBRE ===== */
@@ -193,7 +210,7 @@ textarea:focus-visible {
 
 .sobre-blocos h3 {
   margin-bottom: 4px;
-  color: var(--roxo);
+  color: var(--roxo-claro);
 }
 
 .sobre-blocos ul {
@@ -241,7 +258,7 @@ address {
 }
 
 .confirmacao {
-  color: var(--verde);
+  color: var(--roxo-claro);
   font-weight: bold;
 }
 
@@ -249,7 +266,7 @@ address {
 .rodape {
   padding: 20px 16px;
   text-align: center;
-  background: var(--roxo);
+  background: var(--roxo-claro);
   color: #ffffff;
   font-size: 14px;
 }
