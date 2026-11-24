@@ -2,12 +2,12 @@
 
 O site do CelularFix oferece funcionalidades que permitem aos clientes conhecer os serviços de conserto e manutenção de celulares, visualizar as soluções disponíveis, consultar informações sobre a loja e encontrar facilmente os meios de contato. Com uma navegação simples e organizada, a plataforma facilita a comunicação entre a empresa e seus clientes, permitindo solicitar orçamentos, tirar dúvidas e obter informações sobre reparos sem precisar se deslocar até a loja, tornando o atendimento mais rápido, prático e acessível.
 
-Site publicado: https://github.com/andreysouza333/celular-fix
+Site publicado: https://andreysouza333.github.io/celular-fix/
 
 ## Funcionalidades
-- Contato
-- Agendamento por horário
-- Escolha de peças por valor, marca e originalidade 
+- Catálogo com filtro por categoria
+- Formulário de orçamento com validação
+
 
 ## Tecnologias
 HTML5, CSS3, JavaScript, Git, GitHub Pages
